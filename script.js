@@ -2,9 +2,9 @@
 document.addEventListener('DOMContentLoaded', function() {
     const assignments = [
         // Populate with your assignment objects
-        { name: 'HW 5', status: 'No Submission', due: 'Mar 20 at 11:59PM' },
+        { name: 'HW 5', status: 'No Submission', due:'Mar 20 at 11:59PM' },
         // ... more assignments
-        { name: 'HW 6', status: 'Submitted', due: 'Mar 16 at 11:59PM' },
+        { name: 'HW 6', status: 'Submitted', due:'Mar 16 at 11:59PM' },
     ];
 
     const assignmentsTable = document.getElementById('assignments');
